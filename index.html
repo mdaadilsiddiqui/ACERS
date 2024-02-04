@@ -32,7 +32,7 @@
                     <a href="#categories">categories</a>
                     <a href="#about-us">about-us</a>
                     <a href="#">notes</a>
-                    <a href="#">courses</a>
+                    <a href="courses.html">courses</a>
                     <button class="contact-us">contact-us</button>
                 </div>
             </div>
@@ -47,7 +47,7 @@
         <h3 class="category-heading">categories</h3>
         <h1><span>study materials</span> for remote learning</h1>
         <div class="categories-card">
-            <div class="card card1">
+            <div class="card card1" onclick="openNotes()">
                 <div class="card-icon cr-icon1">
                     <i class='bx bx-receipt'></i>
                 </div>
@@ -57,7 +57,7 @@
                 </div>
                 <button class="cr-btn1">hindi/english</button>
             </div>
-            <div class="card card2">
+            <div class="card card2" onclick="openCourses()">
                 <div class="card-icon cr-icon2">
                     <i class='bx bxl-youtube'></i>
                 </div>
@@ -68,7 +68,7 @@
                 <button class="cr-btn2">hindi/english</button>
             </div>
 
-            <div class="card card3">
+            <div class="card card3" onclick="openPyq()">
                 <div class="card-icon cr-icon3">
                     <i class='bx bx-file'></i>
                 </div>
@@ -78,7 +78,7 @@
                 </div>
                 <button class="cr-btn3">hindi/english</button>
             </div>
-            <div class="card card4">
+            <div class="card card4" onclick="openCareer()">
                 <div class="card-icon cr-icon4">
                     <i class='bx bx-code-curly'></i>
                 </div>
@@ -221,7 +221,7 @@
                         <li><a href="#categories">categories</a></li>
                         <li><a href="#about-us">about-us</a></li>
                         <li><a href="#">notes</a></li>
-                        <li><a href="#">courses</a></li>
+                        <li><a href="courses.html">courses</a></li>
                         <button class="contact-us">contact-us</button>
                     </ul>
                 </div>
@@ -248,5 +248,5 @@
         </div>
     </section>
 </body>
-
+<script src="app.js"></script>
 </html>
